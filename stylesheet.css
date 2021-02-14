@@ -1,0 +1,36 @@
+body{
+	background-image: url("dark.jpg");
+}
+
+#a{font-family: fantasy; font-size:110px; color:#deb887}
+#b{font-size:35px; color:#ffffff}
+#c{font-family: Franklin Gothic Medium; font-size:75px; color:#f0e68c; text-align:center}
+#d{font-family: Franklin Gothic Medium; font-size:75px; color:#f0e68c; text-align:center}
+#e{font-family: Segoe Script; font-size:45px; color:#fff8dc; font-weight:bold}
+#f{font-size:35px; font-family:Gabriola; color:#fff8dc}
+#g{font-size:50px; font-family:Gabriola; color:#ffd700}
+#h{font-size:30px; font-family:Gabriola; color:#fff8dc; text-align:center}
+
+a{
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.column1 {
+  float: left;
+  width: 32%;
+  padding: 8px;
+}
+
+.column2 {
+  float: left;
+  width: 65%;
+  padding: 8px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
